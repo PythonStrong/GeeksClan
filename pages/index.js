@@ -1,9 +1,9 @@
-import SixPage from "@/components/SixPage/SixPage";
+import EightPage from "@/components/EightPage/EightPage";
 
 export default function Home() {
   return (
     <>
-  <SixPage />
+    <EightPage />
     </>
   );
 }
