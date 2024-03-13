@@ -1,3 +1,31 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+*::-webkit-scrollbar{
+    display: none;  
+}
+.scroll::-webkit-scrollbar {
+  display: none;
+}
+.FiveCard {
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+  border-radius: 6px;
+  margin-bottom: 2px;
+}
+.fiveActiveCard:active{
+    background: #2FD3AEFF;
+    color: white;
+}
+.FivePageCard:hover{
+    button{
+        display: block;
+    }
+    img{
+        filter: brightness(50%);
+    }
+}
+.FivePageCard img{
+        border-radius: 8px;
+}
